@@ -35,6 +35,11 @@ Example of generated command:
 wscat -c ws://127.0.0.1:9944 -x '{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlockHash", "params": [123]}' | jq;
 ```
 
-#  Trophies
+##  Trophies
 
 RPCFuzzer found a critical DoS on a Substrate client, crashing every nodes exposing a RPC (patch not published yet)
+
+
+## Inspiration
+
+Got the inspiration from this article - https://fuzzinglabs.com/attacking-polkadot-gossamer-rpc-dos/
