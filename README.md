@@ -1,4 +1,4 @@
-# RPC-Fuzzer
+# RPC Fuzzer
 A simple Python fuzzer for testing JSON-RPC interfaces, specifically designed for Substrate-based nodes.
 
 ## Overview
@@ -37,8 +37,7 @@ wscat -c ws://127.0.0.1:9944 -x '{"id": 1, "jsonrpc": "2.0", "method": "chain_ge
 
 ##  Trophies
 
-RPCFuzzer found a critical DoS on a Substrate client, crashing every nodes exposing a RPC (patch not published yet)
-
+RPC Fuzzer found **two** (maybe more?) criticals DoS on a Substrate client that could crash every node exposing a WS RPC (patch not published yet).
 
 ## Inspiration
 
